@@ -1,12 +1,33 @@
 (function() {
   'use strict';
-  var Persson=(function(){
-    function Persson(){
+
+  var Animal=(function(){
+    function Animal(){
 
     }
-    Person.prototype={
+    Animal.protoype={
+
+    };
+    return Animal;
+  }());
+
+  var Module=(function(){
+    function Module(){
+
+    }
+    Module.protoype={
+
+    };
+    return Module;
+  }());
+
+  var Person=(function(){
+    function Person(){
+
+    }
+    Person.protoype={
 
     };
     return Person;
-  })
+  }());
 }());
